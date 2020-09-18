@@ -9,10 +9,8 @@ int main()
 	vector<char> v;
 	for(char c:s)
 	{
-		if(c=='+')
-			continue;
-		else
-			v.push_back(c);	
+		if(c=='+') continue;
+		else v.push_back(c);	
 	}
 	sort(v.begin(),v.end());
 	auto itr=v.begin();
